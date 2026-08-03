@@ -1,0 +1,106 @@
+.contato{
+    background: #e9ecef;
+    padding: 60px;
+    text-align: center;
+
+}
+.contato h2{
+    font-size: 36px;
+    color: #0d1b2a;
+    margin-bottom: 15px;
+}
+
+.contato p{
+    color: #555;
+    margin-bottom: 35px;
+    font-size: 18px;
+
+}
+
+.contato form{
+
+    width: 700px;
+    max-width: 90%;
+    margin: auto;
+
+    background: rgb(248, 248, 246);
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+.contato input,
+.contato select,
+.contato textarea{
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #ced4da;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: .3s;
+
+}
+
+.contato input:focus,
+.contato select:focus,
+.contato textarea:focus{
+
+    border-color: #00b4d8;
+
+    box-shadow: 0 8px rgba(0,180,216,.4);
+    
+}
+
+.contato textarea{
+
+    resize:vertical;
+    min-height: 140px;
+
+}
+
+.contato button{
+
+    width: 220px;
+
+    margin: auto;
+    
+    padding: 15px;
+
+    background: #00b4d8;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.contato button:hover{
+
+    background: #0077b6;
+    
+}
