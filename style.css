@@ -188,7 +188,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
-
+}
 .servico{
 
     background: white;
@@ -220,5 +220,15 @@ footer{
 
     margin-bottom: 20px;
     color: #666;
-    
+
+}
+
+.servico ul{
+
+    padding-left: 20px;
+}
+
+.servico li{
+
+    margin-bottom: 10px;
 }
