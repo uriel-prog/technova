@@ -202,4 +202,23 @@ footer{
 
     text-align: left
 }
+
+.servico:hover{
+
+    transform: translateY(-8px);
+
+}
+
+.servico h2{
+
+    color: #0d1b2a;
+    margin-bottom: 15px;
+
+}
+
+.servico p{
+
+    margin-bottom: 20px;
+    color: #666;
+    
 }
