@@ -39,7 +39,7 @@ nav a:hover{
 
     padding: 80px;
 
-    background:#0be2ff;
+    background: linear-gradient(to right,#64ffc3,#00b4d8);
     color: rgb(0, 0, 0);
 }
 
@@ -232,3 +232,50 @@ footer{
 
     margin-bottom: 10px;
 }
+
+.banner-tecnologias{
+    background-color: #1b263b;
+    color: white;
+    text-align: center;
+    padding: 70px 30px;
+
+}
+
+.banner-tecnologias h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+}
+
+.banner-tecnologias p{
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+.grid-tecnologias{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+
+    gap: 60px;
+
+    padding: 60px;
+
+    background: #f4f4f4;
+}
+.tecnologia-card{
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+
+    transition: .4s;
+
+    text-align: center;
+
+}
+
